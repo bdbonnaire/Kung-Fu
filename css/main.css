@@ -22,20 +22,12 @@
     font-style: normal;
 }
 
-@font-face { /**À supprimer */
-    font-family: 'luxi_sansbold';
-    src: url('../fonts/Luxi-Sans/luxisb-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @font-face {
     font-family: 'luxi_sansitalic';
     src: url('../fonts/Luxi-Sans/luxisri-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 
 /* General Styling ─────────────────────────────────────────────────────────────── */
 
