@@ -114,13 +114,15 @@ header
     padding-left: 7px;
 }
 
-#header-title::first-letter
-{ border-bottom: 1px solid #F1F1F1; }
+#first-letter-header /** fixes chrome weird bug*/
+{ 
+    border-bottom: 1px solid #F1F1F1;
+}
 
 #header-title span
 {
     color: #F1F1F1;
-    font: 1.3em 'luxi_sansregular', sans-serif;
+    font: 1.3rem 'luxi_sansregular', sans-serif;
     
 }
 
