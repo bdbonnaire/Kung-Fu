@@ -145,9 +145,11 @@ header
 
 #hero-title
 { 
-    font: 1em 'luxisans_regular', sans-serif;
+    font: 1em 'luxi_sansitalic', sans-serif;
+    margin-left:  auto;
+    margin-right: auto;
+    border: 3px dotted #ECC373;
 
-    text-align: center;
 }
 
 /* Presentation Styling ───────────────────────────────────────── */
