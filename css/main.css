@@ -1,0 +1,240 @@
+/**TODO:
+ * ?Add links to the header?
+ * Resize the images with media queries
+ * Find a style for the buttons
+ * Find a style for the footer 
+ * !!!En general il faut trouver la taille voulue pour le texte et la typographie à utiliser
+ * reduire la taille du texte
+ * find a style to separate the sections + news
+ */
+
+*
+{ box-sizing: border-box; }
+
+ td
+{ text-align: center; }
+
+/** Fonts ──────────────────────────────────────────────────────────────── */
+@font-face {
+    font-family: 'luxi_sansregular';
+    src: url('../fonts/Luxi-Sans/luxisr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { /**À supprimer */
+    font-family: 'luxi_sansbold';
+    src: url('../fonts/Luxi-Sans/luxisb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'luxi_sansitalic';
+    src: url('../fonts/Luxi-Sans/luxisri-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* General Styling ─────────────────────────────────────────────────────────────── */
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: "Open Sans", sans-serif;
+}
+
+.pure-img
+{ 
+    border-radius: 2px; 
+    box-shadow: 0 0 8px -3px rgba(15, 15, 15, 0.49);
+}
+
+body > section
+{
+    padding: 0 2.5%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 48em){
+    body > section
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.content
+{
+    padding: 0 10px;
+}
+
+/** Fonts Styling ───────────────────────────── */
+h3 , h4
+{ font-weight: 600; }
+
+.suit-h2
+{
+    margin-top: 0; 
+}
+
+h2 {font-size: 1em;}
+h3 {font-size: .8em;}
+h4, .pure-button, button, input, select, textarea
+{font-size: .7em;}
+p, ul 
+{ font-size: .6em; }
+
+/* General Styling End ------------------------------------------------------ */
+
+/* Specific Styling ────────────────────────────────────────────────────────────── */
+
+/* Header Styling ─────────────────────────────────────────────── */
+
+#logo
+{
+    max-height: 100px;
+    padding: 2px;
+    padding-right: 0;
+ }
+
+header
+{
+    background: #2d2d2d;
+    background: linear-gradient(to bottom, #0F0F0F, #1C1C1C);
+    max-height: 100px;
+    z-index: 10;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 1px 4px 0 rgba(68, 61, 60, 0.70);
+}
+
+#header-title
+{
+    color: #BD0A0A;
+    font: .9em 'luxi_sansitalic', sans-serif;
+    padding-left: 7px;
+}
+
+#header-title::first-letter
+{ border-bottom: 1px solid #F1F1F1; }
+
+#header-title span
+{
+    color: #F1F1F1;
+    font: 1.3em 'luxi_sansregular', sans-serif;
+    
+}
+
+@media screen and (min-width: 340px)
+{
+    header h1
+    { font-size: 2em;}
+}
+
+/* Header Styling End ------------------------------------- */
+
+/* Mini-Presentation Styling ──────────────────────────────────── */
+
+#mini-presentation
+{
+    background: #FBF5BE;
+}
+
+#mini-presentation h2
+{
+    
+}
+
+#mini-presentation p
+{
+    text-align: center;
+}
+/* Mini-Presentation Styling End -------------------------- */
+
+/* Presentation Styling ───────────────────────────────────────── */
+
+#presentation div
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/* Presentation Styling End ------------------------------- */
+
+/* Ecole de Montpellier Styling ────────────────────────────────── */
+
+#map
+{
+    height: 250px;
+    width: 100%;
+    border-radius: 2px;
+    margin: 0 auto;
+    
+    box-shadow: 0 0 8px -3px #0F0F0F;
+}
+
+@media screen and (min-width: 470px)
+{
+    #map
+    { width: 95%; }
+}
+@media screen and (min-width: 48em)
+{
+    #map
+    { width: 49.9690%; } /** reaplying the pure-u-md-1-2 styling */
+}
+
+table
+{
+    font-size: .5em;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 470px)
+{
+    table
+    { font-size: .7em; }
+}
+@media screen and (min-width: 670px)
+{
+    table
+    { font-size: .9em}
+}
+@media screen and (min-width: 48em)
+{
+    table
+    { font-size: 1em; }
+}
+/* Ecole de Montpellier Styling End --------------------------------- */
+
+/* News Styling ─────────────────────────────────────────────────── */
+
+/* News Styling End ---------------------------------------- */
+
+/* Footer Styling ───────────────────────────────────────────────────────── */
+footer span
+{ margin-left: 1.5rem; }
+
+footer
+{
+    background: #2d2d2d;
+    color: #F1F1F1;
+}
+
+footer div
+{
+    margin-left: 2rem;
+    width: 50%;
+}
+/* Footer Styling End ----------------------------------------------- */
+
+@media screen and (min-width: 35.5em){} /**sm 568px*/
+@media screen and (min-width: 48em){} /**md 768*/
+@media screen and (min-width: 64em){} /**lg 1024*/
+@media screen and (min-width: 80em){} /**xl 1280*/
