@@ -78,12 +78,12 @@ h3 , h4
     margin-top: 0; 
 }
 
-h2 {font-size: 1em;}
-h3 {font-size: .8em;}
+h2 {font-size: 1.2em;}
+h3 {font-size: 1em;}
 h4, .pure-button, button, input, select, textarea
-{font-size: .7em;}
+{font-size: .9em;}
 p, ul 
-{ font-size: .6em; }
+{ font-size: .9em; }
 
 /* General Styling End ------------------------------------------------------ */
 
@@ -116,7 +116,7 @@ header
 #header-title
 {
     color: #BD0A0A;
-    font: .9em 'luxi_sansitalic', sans-serif;
+    font: .9em  'luxi_sansitalic', sans-serif;
     padding-left: 7px;
 }
 
@@ -138,23 +138,17 @@ header
 
 /* Header Styling End ------------------------------------- */
 
-/* Mini-Presentation Styling ──────────────────────────────────── */
-
-#mini-presentation
+#hero
 {
-    background: #FBF5BE;
+    background: #ECC373;    
 }
 
-#mini-presentation h2
-{
-    
-}
+#hero-title
+{ 
+    font: 1em 'luxisans_regular', sans-serif;
 
-#mini-presentation p
-{
     text-align: center;
 }
-/* Mini-Presentation Styling End -------------------------- */
 
 /* Presentation Styling ───────────────────────────────────────── */
 
