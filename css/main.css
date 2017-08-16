@@ -130,18 +130,14 @@ header
 
 /* Header Styling End ------------------------------------- */
 
-#hero
-{
-    background: #ECC373;    
-}
-
 #hero-title
 { 
-    font: 1em 'luxi_sansitalic', sans-serif;
+    color: rgba(0, 0, 0, 0.47);
+    font: 1em 'Volkhov', sans-serif;
+
     margin-left:  auto;
     margin-right: auto;
-    border: 3px dotted #ECC373;
-
+    margin-bottom: 0;
 }
 
 /* Presentation Styling ───────────────────────────────────────── */
