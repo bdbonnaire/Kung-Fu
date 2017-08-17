@@ -1,9 +1,8 @@
 /**TODO:
- * ?Add links to the header?
+ * ?Add links to the header? JS
  * Resize the images with media queries
- * Find a style for the buttons
+ * Find a style for button:hover
  * Find a style for the footer 
- * !!!En general il faut trouver la taille voulue pour le texte et la typographie à utiliser
  * find a style to separate the sections + news
  */
 
@@ -62,6 +61,17 @@ body > section
     padding: 0 10px;
 }
 
+.container
+{
+    margin-bottom: 15px; 
+}
+
+@media screen and (min-width: 48em){
+    .container
+    {
+        margin-bottom: 0;
+    }
+}
 /** Fonts Styling ───────────────────────────── */
 h3 , h4
 { font-weight: 600; }
