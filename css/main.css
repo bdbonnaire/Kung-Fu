@@ -119,9 +119,13 @@ p, ul
     
     padding-bottom: 8px;
     border-bottom: 3px dotted rgba(68, 61, 60, 0.70);
-    margin-bottom: 4px;
+    margin-bottom: 12px;
 }
 
+.main-section h3:first-child
+{
+    margin-top: 0; 
+}
 /** Section Separation Styling End ------------- */
 
 
