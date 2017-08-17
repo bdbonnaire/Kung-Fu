@@ -1,4 +1,6 @@
 /**TODO:
+ * Pass through auto-prefixer
+ * 
  * ?Add links to the header? JS
  * Resize the images with media queries
  * Find a style for button:hover
@@ -86,7 +88,7 @@ h3 {font-size: 1em;}
 h4, .pure-button, button, input, select, textarea
 {font-size: .9em;}
 p, ul 
-{ font-size: .9em; }
+{ font-size: .875em; }
 
 /* General Styling End ------------------------------------------------------ */
 
@@ -226,20 +228,42 @@ table
 /* News Styling End ---------------------------------------- */
 
 /* Footer Styling ───────────────────────────────────────────────────────── */
-footer span
-{ margin-left: 1.5rem; }
 
 footer
 {
     background: #2d2d2d;
     background: linear-gradient(to top, #0F0F0F, #1C1C1C);
     color: #F1F1F1;
+
+    font-size: .7em;
 }
 
-footer div
+#nous-contacter
 {
-    margin-left: 2rem;
-    width: 50%;
+    display: flex;
+}
+
+#nous-contacter > div
+{
+    height: 100%;
+    width: auto;
+    margin-left: 6px; 
+}
+@media screen and (min-width: 48em){
+
+    .hide-if-big
+    {
+        display: none;
+    }
+
+    footer
+    {
+        font-size: .9em;
+    }
+    footer span
+    {
+        margin-left: 10px;
+    }
 }
 /* Footer Styling End ----------------------------------------------- */
 
