@@ -269,6 +269,21 @@ footer
 }
 /* Footer Styling End ----------------------------------------------- */
 
+
+/* Histoire Styling ────────────────────────────────────────────────────────── */
+
+
+
+#img-grand-maitre
+{
+    display: none;
+}
+
+@media screen and (min-width: 48em){
+    #img-grand-maitre
+    { display: block;}
+}
+
 @media screen and (min-width: 35.5em){} /**sm 568px*/
 @media screen and (min-width: 48em){} /**md 768*/
 @media screen and (min-width: 64em){} /**lg 1024*/
