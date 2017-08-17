@@ -76,7 +76,7 @@ body > section
         margin-bottom: 0;
     }
 }
-/** Fonts Styling ───────────────────────────── */
+/** Fonts Styling ───────────────────────────────────── */
 h3 , h4
 { font-weight: 600; }
 
@@ -91,6 +91,30 @@ h4, .pure-button, button, input, select, textarea
 {font-size: .9em;}
 p, ul 
 { font-size: .875em; }
+/** Font Styling End -------------------- */
+
+/** Section Separation Styling ─────────────────────── */
+
+.main-section
+{
+    margin-bottom: 15px; 
+}
+
+.main-section h2
+{
+    border-left: 2px solid #BD0A0A;
+    
+    padding-left: 5px;
+}
+
+.main-section h2::first-letter
+{
+     color: #BD0A0A;
+     font-size: 1.25em;
+}
+
+/** Section Separation Styling End ------------- */
+
 
 /* General Styling End ------------------------------------------------------ */
 
