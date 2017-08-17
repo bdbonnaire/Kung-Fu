@@ -195,18 +195,6 @@ header
 
 /* Presentation Styling ───────────────────────────────────────── */
 
-#
-{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
-#presentation img
-{
-    margin-top: 15px;
-}
-
 @media screen and (min-width: 48em)
 {
     #presentation img
