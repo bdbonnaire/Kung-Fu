@@ -272,7 +272,12 @@ footer
 
 /* Histoire Styling ────────────────────────────────────────────────────────── */
 
-
+.sub-paragraphs
+{
+    font-size: .75em;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.47);    
+}
 
 #img-grand-maitre
 {
