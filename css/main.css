@@ -231,6 +231,9 @@ header
         margin-left: auto;
         margin-right: auto;         
     }
+
+#presentation-ecole-container
+{ margin-top: 10px; }
 }
 
 /* Presentation Styling End ------------------------------- */
@@ -349,3 +352,24 @@ footer
 @media screen and (min-width: 48em){} /**md 768*/
 @media screen and (min-width: 64em){} /**lg 1024*/
 @media screen and (min-width: 80em){} /**xl 1280*/
+
+
+/** Utilitaries */
+
+.hide-if-small
+{
+    display: none;
+}
+
+@media screen and (min-width: 48em)
+{
+    .hide-if-big
+    {
+        display: none;
+    }
+
+    .hide-if-small
+    {
+        display: inline-block;
+    }
+}
