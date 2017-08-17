@@ -1,10 +1,11 @@
 /**TODO:
  * Pass through auto-prefixer
+ * fix google API
+ * use auto-prefixer
+ * une minifier
  * 
  * ?Add links to the header? JS
- * Resize the images with media queries
  * Find a style for button:hover
- * Find a style for the footer 
  * find a style to separate the sections + news
  */
 
@@ -42,6 +43,7 @@ html, button, input, select, textarea,
     box-shadow: 0 0 8px -3px rgba(15, 15, 15, 0.49);
 
     height: 100%;
+    margin: 0 auto;
 }
 
 body > section
