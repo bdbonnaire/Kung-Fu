@@ -52,7 +52,7 @@ section img
 }
 
 @media screen and (min-width: 48em){
-    body > section
+    .main-section
     {
         width: 80%;
         margin: 0 auto;
@@ -304,16 +304,6 @@ footer
     color: rgba(0, 0, 0, 0.47);    
 }
 
-#img-grand-maitre
-{
-    display: none;
-}
-
-@media screen and (min-width: 48em){
-    #img-grand-maitre
-    { display: block;}
-}
-
 @media screen and (min-width: 35.5em){} /**sm 568px*/
 @media screen and (min-width: 48em){} /**md 768*/
 @media screen and (min-width: 64em){} /**lg 1024*/
@@ -337,5 +327,9 @@ footer
     .hide-if-small
     {
         display: inline-block;
+    }
+    img.hide-if-small
+    {
+        display: block;
     }
 }
