@@ -5,7 +5,7 @@ function initMap() {
       center: centerMap
     });
     var marker = new google.maps.Marker({
-      position: {lat: 43.612973, lng: 3.886472},
+      position: {lat: 43.612885,lng: 3.886148},
       map: map
     });
   }
