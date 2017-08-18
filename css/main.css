@@ -38,11 +38,17 @@ html, button, input, select, textarea,
 
 section img
 { 
-    display: block !important;
     border-radius: 2px; 
     box-shadow: 0 0 8px -3px rgba(15, 15, 15, 0.49);
 
     margin: 0 auto;
+    height: 100%;
+}
+
+.img-main-section
+{
+    display: block !important;
+    height: auto;
 }
 
 .main-section
@@ -57,7 +63,7 @@ section img
         width: 80%;
     }
 
-    section img
+    .img-main-section
     {
         display: inline-block !important;
     }
@@ -275,9 +281,9 @@ table
 
 /* News Styling ─────────────────────────────────────────────────── */
 
-#news
+#news section:nth-of-type(2)
 {
-    
+    margin-top: 0;
 }
 
 /* News Styling End ---------------------------------------- */
