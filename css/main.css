@@ -248,6 +248,15 @@ nav a
     font-size: .8em;
 }
 
+#logo-nav
+{ display: none; }
+
+@media screen and (min-width:400px)
+{
+    #logo-nav
+    { display: block; }
+}
+
 /* Presentation Styling ───────────────────────────────────────── */
 
 #bouton-histoire
