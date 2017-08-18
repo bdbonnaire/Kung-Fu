@@ -55,7 +55,11 @@ section img
     .main-section
     {
         width: 80%;
-        margin: 0 auto;
+    }
+
+    section img
+    {
+        display: inline-block !important;
     }
 }
 
@@ -93,6 +97,7 @@ p, ul
     border-left: 2px solid #BD0A0A;
 
     padding-left: 5px;
+    width: 100%
 }
 
 .main-section h2::first-letter
@@ -107,7 +112,7 @@ p, ul
     
     padding-bottom: 8px;
     border-bottom: 3px dotted rgba(68, 61, 60, 0.70);
-    margin-bottom: 12px;
+    margin: 12px 0;
 }
 
 .main-section h3:first-child
@@ -167,9 +172,12 @@ header
 
 .pure-button
 {
+display: block;
+
     margin-left: auto;
     margin-right: auto;
 }
+
 
 @media screen and (min-width: 630px)
 {
@@ -224,7 +232,15 @@ header
 @media screen and (min-width: 48em)
 {
     #map
-    { width: 49.9690%; } /** reaplying the pure-u-md-1-2 styling */
+    { width: 45.8333%; } /** reaplying the pure-u-md-1-2 styling */
+}
+
+#section-with-table
+{
+    display: flex !important;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 table
@@ -251,6 +267,11 @@ table
 /* Ecole de Montpellier Styling End --------------------------------- */
 
 /* News Styling ─────────────────────────────────────────────────── */
+
+#news
+{
+    
+}
 
 /* News Styling End ---------------------------------------- */
 
