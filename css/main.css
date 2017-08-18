@@ -148,7 +148,7 @@ header
     background: #2d2d2d;
     background: linear-gradient(to bottom, #0F0F0F, #1C1C1C);
     max-height: 100px;
-    z-index: 10;
+    z-index: 100;
     position: relative;
 
     display: flex;
@@ -232,6 +232,7 @@ nav
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    z-index: 50;
     
 }
 
