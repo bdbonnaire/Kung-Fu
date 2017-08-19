@@ -251,6 +251,12 @@ nav a
     font-weight: 600;
 }
 
+nav a:first-of-type
+{
+    display: none;
+    width: 20%;
+}
+
 #logo-nav
 { 
     display: none;
@@ -258,11 +264,21 @@ nav a
 
 @media screen and (min-width:400px)
 {
+    nav a:first-of-type
+    {
+        display: block;
+    }
     #logo-nav
     { 
+        object-fit: scale-down;
         display: block; 
-        width: 20%;
+        height: 100%;
     }
+}
+
+@media screen and (min-width: 48em)
+{
+    
 }
 
 /* Presentation Styling ───────────────────────────────────────── */
